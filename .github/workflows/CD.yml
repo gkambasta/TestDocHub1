@@ -23,4 +23,4 @@ jobs:
       - name: Run Docker Container
         env: 
           DOCKER_USER: ${{ secrets.GK_DOCKER_NAME }}
-        run: sudo docker run -it -d -p 8001:8001 --name bike_fastapi_container1 $DOCKER_USER/bike_fastapi:latest
+        run: sudo docker run -it -d -p 8001:8001 --name bike_fastapi_container1 $DOCKER_USER/bike_fastapi:latest4
